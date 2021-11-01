@@ -19,6 +19,7 @@
  *
  *  Version: $Id: minIni.c 53 2015-01-18 13:35:11Z thiadmer.riemersma@gmail.com $
  */
+#define INI_ANSIONLY
 
 #if (defined _UNICODE || defined __UNICODE__ || defined UNICODE) && !defined INI_ANSIONLY
 # if !defined UNICODE   /* for Windows */
